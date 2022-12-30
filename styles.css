@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    background-color: rgba(236, 236, 236,1);
+    font-family: Verdana, Tahoma, sans-serif;
+    color: rgba(108,122,137,1);
+    display: block;
+}
+  
+main {
+    margin: 0;
+    padding: 10px 10px 0 10px;
+    background-color: #d2d7d3;
+    border-radius: 2.5px; 
+}
+  
+header {
+    padding-top: 10px;
+    text-align: center;
+    color: black;
+}
+  
+h1 {
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.15px;
+}
+  
+h4 {
+    padding: 20px 0 5px 0;
+    margin: 0 0 0 2.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.15px;
+    color: black;
+}
+  
+article {
+    width: 100%;
+    padding: 0 0 5px 0;
+    margin: 0 auto;
+}
+  
+p, #undertitle {
+    margin: 5px 0 5px 5px;
+    padding: 0 0 2.5px 0;
+    font-size: 14px;
+}
+  
+#undertitle {
+    font-family: Tahoma;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+  
+  
+.bold {
+    font-weight: bold;
+}
+  
+.divider {
+    border: 0;
+    border-bottom: 1.5px solid black;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+  
+.image img {
+    border-radius: 10px;
+    padding: 5px;
+    display: block;
+    margin: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+  
+.gallery::after {
+    content: "";
+    width: 350px;
+}
+
+.quote {
+    /*text-transform: uppercase;*/
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 5px;
+    
+}
+
+#quote-div {
+    background-color:rgba(236, 236, 236,0.5);
+    letter-spacing: 1px;
+}
+  
+#img-div {
+    background-color: rgba(236, 236, 236,1);
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 2.5px;
+}
+  
+  
+#image, #tribute-info, #undertitle, .divider, h1, h4 {
+    max-width: 100%;
+    height: auto;
+}
+  
+  
+#img-caption {
+    font-family: Tahoma;
+    font-size: 12px;
+    padding: 2px 0 2px 0;
+}
+  
+a {
+    color: rgba(108,122,137,1);
+}
+  
+.addinfo {
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 0 10px 0;
+}
+  
+a:hover {
+    color: rgba(236, 236, 236,1);
+}
+
+footer {
+    color: black;
+}
